@@ -1,0 +1,58 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    margin : 0 ;
+    padding : 0 ;
+}
+
+
+.container1 h1 {
+    text-align: center;
+    color :whitesmoke ;
+    font-size: 4rem;
+    margin-top : 10% ;
+}
+
+ button {
+     min-height: 10vh;
+     width: 30vh;
+     margin-bottom: 10px;
+     margin-left: 42%;
+
+}
+
+.button-box {
+    display: flex;
+    flex-direction: column;
+     align-content: center;
+    margin-left: auto;
+
+}
+
+button {
+    font-size: 2rem;
+}
+
+
+.button-box button:nth-child(1){
+    background-color: blue;
+    text-decoration: none;
+    outline: solid;
+}
+.button-box button:nth-child(2){
+    background-color: yellow;
+    text-decoration: none;
+    outline: solid;
+    
+}
+
+.button-box button:hover:nth-child(1)  {
+    color  : darkgreen ;
+}
+
+.game-header {
+    text-align: center;
+}
